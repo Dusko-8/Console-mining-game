@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -93,13 +93,64 @@ namespace Mining
                         cursorY = Console.CursorTop;
                         Console.SetCursorPosition(cursorX + 1, cursorY + 2);
                         break;
-
+                    case 'E':
+                        Console.Write("╚══");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write("╠══");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write("╔══");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX + 1, cursorY + 2);
+                        break;
+                    case 'X':
+                        Console.Write("╔╩╗");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write(" ║ ");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write("╚╦╝");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX + 1, cursorY + 2);
+                        break;
+                    case 'I':
+                        Console.Write(" ╩ ");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write("║");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write("║");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX + 1, cursorY + 2);
+                        break;
+                    case 'T':
+                        Console.Write(" ╩ ");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write("║");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX - 3, cursorY - 1);
+                        Console.Write("═╦═");
+                        cursorX = Console.CursorLeft;
+                        cursorY = Console.CursorTop;
+                        Console.SetCursorPosition(cursorX + 1, cursorY + 2);
+                        break;
                 }
-
                 
-
-                
-
                 i++;
                 if (i > str.Length-1)
                 {
