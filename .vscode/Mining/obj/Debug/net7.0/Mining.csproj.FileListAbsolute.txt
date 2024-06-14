@@ -1,0 +1,15 @@
+P:\Self-improvment\mining\.vscode\Mining\bin\Debug\net7.0\Mining.exe
+P:\Self-improvment\mining\.vscode\Mining\bin\Debug\net7.0\Mining.deps.json
+P:\Self-improvment\mining\.vscode\Mining\bin\Debug\net7.0\Mining.runtimeconfig.json
+P:\Self-improvment\mining\.vscode\Mining\bin\Debug\net7.0\Mining.dll
+P:\Self-improvment\mining\.vscode\Mining\bin\Debug\net7.0\Mining.pdb
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.csproj.AssemblyReference.cache
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.GeneratedMSBuildEditorConfig.editorconfig
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.AssemblyInfoInputs.cache
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.AssemblyInfo.cs
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.csproj.CoreCompileInputs.cache
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.dll
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\refint\Mining.dll
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.pdb
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\Mining.genruntimeconfig.cache
+P:\Self-improvment\mining\.vscode\Mining\obj\Debug\net7.0\ref\Mining.dll
