@@ -12,7 +12,9 @@ namespace Mining
         public int  minimal_y = 0;
         public int  maximal_x = Console.WindowWidth-1;
         public int  maximal_y = Console.WindowHeight-1;
+
         public int  [,]? map;
+        public Map mapobj;
 
 
         public void check_for_movement(Player player) {
@@ -89,6 +91,16 @@ namespace Mining
                     }
                     break;
                 case ConsoleKey.Spacebar:
+                    if (player.position_y != maximal_y)
+                    {
+                        if (this.map[player.position_x, player.position_y + 1] > 2)
+                        {
+                            map[player.position_x, player.position_y + 1] = 0;
+                            this.mapobj.map = this.map;
+                            
+                            mapobj.render_soil_row(player.position_y + 1);
+                        }
+                    }
                     break;
                 default:
                     break;

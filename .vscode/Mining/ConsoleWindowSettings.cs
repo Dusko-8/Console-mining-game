@@ -41,6 +41,9 @@ public class ConsoleWindowSettings
         // Set the desired console window size
         Console.SetWindowSize(consoleWidth, consoleHeight);
 
+        //set the buffer size  to prevent scrolling
+        Console.SetBufferSize(consoleWidth, consoleHeight);
+
         // Get the handle of the current console window
         IntPtr consoleHandle = GetForegroundWindow();
 
