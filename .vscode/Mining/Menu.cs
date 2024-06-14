@@ -9,16 +9,20 @@ namespace Mining
     internal class Menu
     {
         public void generateMenu() {
-            string[] stringArray = new string[5];
-            string Word = "PLAY";
+            string[] stringArray = new string[2];
+            stringArray[0] = "PLAY";
+            stringArray[1] = "EXIT";
 
             Console.SetCursorPosition(5, 5);
+            finde_center(stringArray);
 
             UseBigLatters("PLAY");
 
             Console.ResetColor();
         }
-        public void finde_center(string str) { 
+        public void finde_center(string[] str) { 
+
+
         
         }
         public void UseBigLatters(string str) {
