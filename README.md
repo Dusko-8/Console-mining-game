@@ -1,0 +1,1 @@
+This project is a simple mining game implemented in C#. The game features player movement and interaction with the game map, utilizing console-based graphics. It includes core functionalities for handling player movements, detecting and updating map changes, and rendering player actions on the console.
